@@ -1,0 +1,32 @@
+body {
+    background-color: #ffecf7;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: #343a40;
+}
+
+.btn-primary {
+    background-color: #ff9cd9;
+    border-color: #ff9cd9;
+}
+.btn-primary:hover {
+    background-color: #d782b7;
+    border-color: #d782b7;
+}
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #dee2e6;
+}
+
+.form-container:hover {
+    border-color: #ff9cd9;
+    box-shadow: #343a40;
+}
