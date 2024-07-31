@@ -1,9 +1,22 @@
 body {
     background-color: #ffecf7;
 }
-
+@keyframes pulsar{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: none;
+    }
+}
 h2 {
-    color: #343a40;
+    color: #cd5e8c;
+    animation-name: pulsar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .form-control:focus {
